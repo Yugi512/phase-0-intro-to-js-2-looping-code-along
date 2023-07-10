@@ -1,6 +1,7 @@
+const names = [];
 function writeCards(nameS,name){
     for (let i = 0;i < nameS.length;i++){
-        const samething = Thank you, ${nameS[i]}, for the wonderful ${name} gift!;
+        const samething = `Thank you, ${nameS[i]}, for the wonderful ${name} gift!`;
         names.push(samething);
     }
    return names;
